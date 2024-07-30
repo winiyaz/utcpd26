@@ -8,3 +8,9 @@
 
 1. Majority is being done , including initial parts only when doing work on the game will use this code editor
 2. Doing Excercise 
+
+# [`50sg`](./50sg) 
+
+1. This was copied from [HERE](https://github.com/winiyaz/utcpd251-/tree/master/50sg)
+   2. Goal is to use list comprehension to make it better
+

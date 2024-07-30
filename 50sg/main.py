@@ -27,10 +27,11 @@ while len(gues) < 50:
 
 	# Logic with data from the dataframe
 	if ans == "Exit":
-		miss = []
-		for s in all_states:
-			if s not in gues:
-				miss.append(s)
+		miss = [state for state in all_states if state not in gues]
+		# miss = []
+		# for s in all_states:
+		# 	if s not in gues:
+		# 		miss.append(s)
 		print(f'Missed = {len(miss)}')  # Missed States
 		print(miss)
 		new_data = pd.DataFrame(miss)
