@@ -7,3 +7,4 @@
 # KAG work 
 
 1. Majority is being done , including initial parts only when doing work on the game will use this code editor
+2. Doing Excercise 
